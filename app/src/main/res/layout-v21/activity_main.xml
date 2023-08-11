@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/clmain"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bgx"
+    android:gravity="center"
+    android:orientation="vertical">
+
+
+    <GridLayout
+        android:id="@+id/grid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/bgx"
+        android:columnCount="3"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.49"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.719">
+
+        <Button
+            android:id="@+id/btn1"
+            android:layout_width="100sp"
+            android:layout_height="100sp"
+            android:layout_margin="10dp"
+            android:backgroundTint="@color/bg"
+            android:onClick="check"
+            android:textSize="50sp"
+            app:cornerRadius="1dp" />
+
+        <Button
+            android:id="@+id/btn2"
+            android:layout_width="100sp"
+            android:layout_height="100sp"
+            android:layout_margin="10dp"
+            android:backgroundTint="@color/bg"
+            android:onClick="check"
+            android:textSize="50sp"
+            app:cornerRadius="1dp" />
+
+        <Button
+            android:id="@+id/btn3"
+            android:layout_width="100sp"
+            android:layout_height="100sp"
+            android:layout_margin="10dp"
+            android:backgroundTint="@color/bg"
+            android:onClick="check"
+            android:textSize="50sp"
+            app:cornerRadius="1dp" />
+
+        <Button
+            android:id="@+id/btn4"
+            android:layout_width="100sp"
+            android:layout_height="100sp"
+            android:layout_margin="10dp"
+            android:backgroundTint="@color/bg"
+            android:onClick="check"
+            android:textSize="50sp"
+            app:cornerRadius="1dp" />
+
+        <Button
+            android:id="@+id/btn5"
+            android:layout_width="100sp"
+            android:layout_height="100sp"
+            android:layout_margin="10dp"
+            android:backgroundTint="@color/bg"
+            android:onClick="check"
+            android:textSize="50sp"
+            app:cornerRadius="1dp" />
+
+        <Button
+            android:id="@+id/btn6"
+            android:layout_width="100sp"
+            android:layout_height="100sp"
+            android:layout_margin="10dp"
+            android:backgroundTint="@color/bg"
+            android:onClick="check"
+            android:textSize="50sp"
+            app:cornerRadius="1dp" />
+
+        <Button
+            android:id="@+id/btn7"
+            android:layout_width="100sp"
+            android:layout_height="100sp"
+            android:layout_margin="10dp"
+            android:backgroundTint="@color/bg"
+            android:onClick="check"
+            android:textSize="50sp"
+            app:cornerRadius="1dp" />
+
+        <Button
+            android:id="@+id/btn8"
+            android:layout_width="100sp"
+            android:layout_height="100sp"
+            android:layout_margin="10dp"
+            android:backgroundTint="@color/bg"
+            android:onClick="check"
+            android:textSize="50sp"
+            app:cornerRadius="1dp" />
+
+        <Button
+            android:id="@+id/btn9"
+            android:layout_width="100sp"
+            android:layout_height="100sp"
+            android:layout_margin="10dp"
+            android:backgroundTint="@color/bg"
+            android:onClick="check"
+            android:textSize="50sp"
+            app:cornerRadius="1dp" />
+    </GridLayout>
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.02872777" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="165dp"
+        android:layout_height="175dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintBottom_toTopOf="@+id/grid"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.304"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.71"
+        app:srcCompat="@drawable/letter_o" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="97dp"
+        android:layout_height="93dp"
+        app:layout_constraintBottom_toTopOf="@+id/grid"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.764"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.649"
+        app:srcCompat="@drawable/x" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
